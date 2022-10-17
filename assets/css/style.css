@@ -117,6 +117,7 @@ header svg {
     padding:20px 40px;
     position:sticky;
     top:28px;
+    z-index:10;
 }
 
 .header__navigation {
@@ -218,7 +219,6 @@ header svg {
     position:absolute;
     left:20px;
     bottom:-150px;
-    overflow:hidden;
 }
 
 .section2__floating__dog {
@@ -238,6 +238,7 @@ header svg {
     margin:200px auto 0 auto;
     color:#000;
     max-width:1020px;
+    padding-bottom:120px;
 }
 
 .section3__title {
@@ -288,14 +289,45 @@ header svg {
 }
 
 .section4 {
-    background-image:url('../img/section4_bg.png');
+    background:#29C3BE;
     min-height:500px;
     display:flex;
     justify-content:flex-end;
     color:#fff;
+    position:relative;
+}
+
+.section4__circles {
+    position:absolute;
+    left:0;
+    bottom:50px;
+}
+
+.section4__blob {
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.section4__pup {
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+
+.section4__line {
+    position:absolute;
+    right:75px;
+}
+
+.section4__ball {
+    position:absolute;
+    right:0px;
+    top:150px;
 }
 
 .section4__text {
+    position:relative;
     max-width:30%;
     padding:112px 210px;
     display:flex;
